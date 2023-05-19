@@ -21,4 +21,6 @@ data2 = datetime.datetime.strptime(ivesta2_data, "%Y-%m-%d %H:%M:%S")
 
 skirtumas = data1 - data2
 
+print("Naujas pakeitimas")
+
 print("Tarp įvestų datų praėjo: ", abs(skirtumas.total_seconds()), "s", type(skirtumas))
